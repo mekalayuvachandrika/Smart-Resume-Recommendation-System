@@ -72,21 +72,43 @@ An agentic AI-powered full-stack web application that analyzes resumes, evaluate
 - GitHub
 - Node.js
 - npm
-- 
-Architecture / System Workflow
+- ## System Architecture
 
-- Resume Upload
-      ↓
-Resume Extraction
-      ↓
-AI Analysis
-      ↓
-HITL Interview
-      ↓
-ATS Evaluation
-      ↓
-Skill Gap Analysis
-      ↓
-Learning Recommendations
-      ↓
-Job Recommendations
+The system follows an agentic workflow where the uploaded resume passes through multiple analysis and recommendation stages.
+
+```text
+                    ┌──────────────────┐
+                    │   Resume Upload  │
+                    └────────┬─────────┘
+                             ↓
+                 ┌──────────────────────┐
+                 │ Resume Text          │
+                 │ Extraction & Parsing │
+                 └──────────┬───────────┘
+                            ↓
+                 ┌──────────────────────┐
+                 │   AI Resume Analysis │
+                 └──────────┬───────────┘
+                            ↓
+             ┌──────────────┴──────────────┐
+             ↓                             ↓
+    ┌─────────────────┐          ┌──────────────────┐
+    │ HITL QA Agent   │          │ ATS Evaluation   │
+    └────────┬────────┘          └────────┬─────────┘
+             ↓                            ↓
+    ┌─────────────────┐          ┌──────────────────┐
+    │ Resume Evidence │          │ ATS Score &      │
+    │ / Proof         │          │ Improvements    │
+    └────────┬────────┘          └────────┬─────────┘
+             └──────────────┬─────────────┘
+                            ↓
+                 ┌──────────────────────┐
+                 │   Skill Gap Analysis │
+                 └──────────┬───────────┘
+                            ↓
+             ┌──────────────┴──────────────┐
+             ↓                             ↓
+    ┌──────────────────┐          ┌──────────────────┐
+    │ Learning         │          │ Job              │
+    │ Recommendations  │          │ Recommendations  │
+    └──────────────────┘          └──────────────────┘
