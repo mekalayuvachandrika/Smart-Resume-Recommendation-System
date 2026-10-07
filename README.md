@@ -1,1 +1,3 @@
+# Smart Resume Analysis & Recommendation System
+
 An agentic AI-powered full-stack web application that analyzes resumes, evaluates ATS compatibility, identifies skill gaps, conducts Human-in-the-Loop interviews, and recommends suitable learning resources and job opportunities.
