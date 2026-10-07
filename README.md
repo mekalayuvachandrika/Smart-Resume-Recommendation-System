@@ -149,3 +149,11 @@ and click **Commit changes**.
 ⚠️ **One correction from me:** don't paste the section if your existing README already has an **Installation/Setup** section—we don't want duplicate instructions.
 
 If you want, **send me a screenshot of your current README editor**, and I'll point out exactly **where to paste it**.
+## Security & Privacy
+
+- API keys are stored in environment variables and should never be committed to the repository.
+- `.env` files are excluded from version control using `.gitignore`.
+- Uploaded resumes are excluded from Git tracking.
+- Local SQLite checkpoint databases are generated during application execution and are excluded from the repository.
+- Sensitive candidate information should be handled securely and used only for the intended resume-analysis workflow.
+- Users should avoid uploading resumes containing unnecessary sensitive personal information when testing the application.
