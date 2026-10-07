@@ -39,3 +39,54 @@ An agentic AI-powered full-stack web application that analyzes resumes, evaluate
 ### 8. 🧠 Dual AI Intelligence
 - Uses local NLP/heuristic processing for basic analysis.
 - Can integrate with OpenAI or Google Gemini when API keys are configured.
+## Technologies Used
+
+### Frontend
+- React.js
+- HTML5
+- CSS3
+- JavaScript
+
+### Backend
+- Python
+- FastAPI
+
+### AI & Agentic Framework
+- LangGraph
+- Large Language Models (LLMs)
+- OpenAI API / Google Gemini API
+- Human-in-the-Loop (HITL) workflow
+
+### AI Communication & Integration
+- Model Context Protocol (MCP)
+- MCP Client
+- MCP Server
+
+### Database & Persistence
+- SQLite
+- LangGraph SQLite Checkpointing
+
+### Development Tools
+- Visual Studio Code
+- Git
+- GitHub
+- Node.js
+- npm
+- 
+Architecture / System Workflow
+
+- Resume Upload
+      ↓
+Resume Extraction
+      ↓
+AI Analysis
+      ↓
+HITL Interview
+      ↓
+ATS Evaluation
+      ↓
+Skill Gap Analysis
+      ↓
+Learning Recommendations
+      ↓
+Job Recommendations
