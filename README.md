@@ -27,7 +27,18 @@ An agentic AI-powered full-stack web application that analyzes resumes, evaluate
 - Compares the candidate's existing skills with required skills.
 - Identifies missing or weak skill areas.
 - Suggests relevant learning resources.
+## Future Enhancements
 
+- Integration with additional Large Language Models and AI providers.
+- Advanced resume ranking using semantic similarity and embeddings.
+- Personalized career-roadmap generation based on candidate goals.
+- Real-time job-market analysis and job recommendations.
+- Support for multiple resume formats and languages.
+- Improved ATS evaluation using industry-specific criteria.
+- Automated interview performance analysis and feedback.
+- Cloud deployment for scalable access.
+- User authentication and personalized candidate dashboards.
+- Analytics dashboard for tracking resume improvements and skill development.
 ### 6. 📚 Personalized Learning Recommendations
 - Recommends learning resources based on identified skill gaps.
 - Provides resources such as YouTube and Udemy courses.
