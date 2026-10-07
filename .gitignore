@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment
+.env
+.env.*
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Node
+node_modules/
+
+# Build
+dist/
+build/
