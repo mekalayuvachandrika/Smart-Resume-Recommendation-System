@@ -112,3 +112,40 @@ The system follows an agentic workflow where the uploaded resume passes through 
     │ Learning         │          │ Job              │
     │ Recommendations  │          │ Recommendations  │
     └──────────────────┘          └──────────────────┘
+## Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/mekalayuvachandrika/Smart-Resume-Recommendation-System.git
+cd Smart-Resume-Recommendation-System
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+OPENAI_API_KEY=your_api_key_here
+GEMINI_API_KEY=your_api_key_here
+uvicorn main:app --reload
+cd frontend
+npm install
+npm run dev
+
+### 5. Save it
+
+Scroll to the bottom of the GitHub page.
+
+You'll see **Commit changes...**
+
+Click it.
+
+Then choose:
+
+**Commit directly to the `main` branch**
+
+and click **Commit changes**.
+
+---
+
+⚠️ **One correction from me:** don't paste the section if your existing README already has an **Installation/Setup** section—we don't want duplicate instructions.
+
+If you want, **send me a screenshot of your current README editor**, and I'll point out exactly **where to paste it**.
